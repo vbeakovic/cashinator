@@ -3,7 +3,7 @@
 ##**************##
 
 #### postavi radni direktorij ####
-setwd("~/Projekti/dev/agenor")
+setwd("~/Projekti/dev/cashinator")
 
 #### učitaj library-ije ####
 library(XML)
@@ -24,15 +24,15 @@ pathPrometi <- "./prometi"
 pathTecaji <- "./tecaji"
 
 #### pozovi obrade prometa ####
-source("./skripte/funkcije.R")
-source("./skripte/pocetna_stanja.R")
-source("./skripte/rba_kune.R")
-source("./skripte/rba_eur.R")
-source("./skripte/rba_tecaj.R")
-source("./skripte/zaba_kune.R")
-source("./skripte/zaba_eur.R")
-source("./skripte/zaba_tecaj.R")
-source("./skripte/rba.R")
-source("./skripte/zaba.R")
-source("./skripte/erste_kune.R")
-source("./skripte/integrator.R")
+source("./scripts/funkcije.R")
+source("./scripts/pocetna_stanja.R")
+source("./scripts/rba_kune.R")
+source("./scripts/rba_eur.R")
+source("./scripts/rba_tecaj.R")
+source("./scripts/zaba_kune.R")
+source("./scripts/zaba_eur.R")
+source("./scripts/zaba_tecaj.R")
+source("./scripts/rba.R")
+source("./scripts/zaba.R")
+source("./scripts/erste_kune.R")
+source("./scripts/integrator.R")
