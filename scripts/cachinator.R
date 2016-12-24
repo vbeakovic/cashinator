@@ -36,3 +36,4 @@ source("./scripts/rba.R")
 source("./scripts/zaba.R")
 source("./scripts/erste_kune.R")
 source("./scripts/integrator.R")
+# ubaciti kasnije sourcing ostalih skripti
